@@ -1,0 +1,29 @@
+{
+  "name": "@interactivated/vsf-algolia-search",
+  "version": "1.0.0",
+  "description": "The Algolia Search module for Vue Storefront",
+  "license": "MIT",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Interactivated/vsf-algolia-search.git"
+  },
+  "keywords": [
+    "algolia search",
+    "vsf-algolia-search",
+    "interactivated/vsf-algolia-search",
+    "interactivated",
+    "vue-storefront",
+    "divanteltd/vue-storefront"
+  ],
+  "author": "Dmitry Schegolikhin <d.shegolihin@gmail.com> (https://www.interactivated.me/)",
+  "maintainers": [
+    "Dmitry Schegolikhin <d.shegolihin@gmail.com> (https://www.interactivated.me/)"
+  ]
+}
