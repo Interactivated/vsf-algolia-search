@@ -1,6 +1,10 @@
 
+# This is Algolia Search module for Vue Storefront.
 
-- Frontend setup
+Demo integration to SearchPanel.
+![Demo](https://i.imgur.com/yZzvaE8.png)
+
+## Frontend setup
 
 `storefront/src/modules/index.ts`
 
@@ -23,7 +27,7 @@ Setup the new path to `SearchPanel`
 import SearchPanel from 'src/modules/algolia-search/components/SearchPanel'
 ```
 
-- Api setup
+## Api setup
 
 Install package to api:
 `cd ../vue-storefront-api`
@@ -56,3 +60,7 @@ Update setting in configuration:
     ...
 }
 ```
+
+## Setup the Algolia access (ACL) in Algolia admin panel:
+Go to `Api Keys -> All Api Keys -> Select actual Api Key`
+![Access setup](https://i.imgur.com/8tBUgzf.png)
