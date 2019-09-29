@@ -1,6 +1,6 @@
 {
   "name": "@interactivated/vsf-algolia-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Algolia Search module for Vue Storefront",
   "license": "MIT",
   "main": "index.ts",
