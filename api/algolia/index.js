@@ -15,7 +15,7 @@ module.exports = ({ config, db }) => {
     const algoliaIndex = algoliaClient.initIndex(cnf.index);
 
     try {
-      const algoliaResults = await algoliaIndex.search(params.query);
+      const algoliaResults = await algoliaIndex.search(params);
 
       const prepareItem = async objectID => {
          let data = await esClient.search(objectID)
@@ -23,6 +23,7 @@ module.exports = ({ config, db }) => {
       }
 
       const results = {
+        totalPages: algoliaResults.nbPages,
         items: await Promise.all(algoliaResults.hits.map(async result => {
           return await prepareItem(result.objectID)
         }))
